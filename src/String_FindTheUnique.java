@@ -13,6 +13,7 @@ public class String_FindTheUnique {
             char each = str.charAt(i);//within the loop, the code retrieves the character at the current index i using the charAt method and assigns it to the variable each.
             if (str.indexOf(each) == str.lastIndexOf(each)) {//The code then checks if the index of the first occurrence of each in str is equal to the index of the last occurrence of each in str. If they are equal, it means that each appears only once in the string, making it a unique character.
                 unique += each;//If each is determined to be a unique character, it is concatenated to the unique string using the += operator.
+
             }
         }
         return unique;//After the loop completes, the unique string will contain all the unique characters found in the original string.
@@ -20,6 +21,7 @@ public class String_FindTheUnique {
 
     }
 }
+
 
 
 
